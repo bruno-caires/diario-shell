@@ -1,2 +1,2 @@
 # diario-shell
-Diário de para anotações e pesquisa em shell script
+Diário de para anotações e pesquisa em shell script.
