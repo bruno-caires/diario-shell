@@ -1,5 +1,5 @@
 #!/bin/bash
-#programa em Bash para registro dos comando e diário de atividades diárias - Bruno 15-08-17
+#programa em Bash para registro dos comando e diário de atividades diárias - Bruno 15-08-17.
 
 data=`date +%d-%m-%Y-%A`
 hora=`date +%H:%M`
