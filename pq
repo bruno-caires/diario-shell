@@ -1,5 +1,5 @@
 #!/bin/bash
-#Shell script para consulta de anotações geradas pelo shell script rg
+#Shell script para consulta de anotações geradas pelo shell-script rg.
 
 DIR=~/.registro/tags
 DIRFONTES=~/.registro
