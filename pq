@@ -20,7 +20,11 @@ case "$1" in
 		    tag=$2	
 			cat -n ~/.registro/[0-9]* | grep -h $tag
 			;;
+		tag)
+			tag=$2
+			cat -n ~/.registro/[0-9]* | grep -h "[ $tag ]"
+			;;
 		*)
-			echo "use as opções 'lista' ou 'junta $tag' ou 'show $tag'"	
+			echo "use as opções 'lista' ou 'junta $tag' ou 'show $tag' ou 'tag $tag'"	
 			;;esac	
 
